@@ -25,6 +25,9 @@ const corsOptions = {
     origin: "https://twitter-x-clone-frontend.vercel.app",
     credentials: true
 }
+
+app.options('*' , cors(corsOptions));
+
 app.use(cors(corsOptions));
 
 //api
