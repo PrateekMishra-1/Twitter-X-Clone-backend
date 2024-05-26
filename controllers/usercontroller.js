@@ -91,7 +91,7 @@ export const Login = async (req, res) => {
         return res.status(500).json({
             message : "Something went wrong",
             success : false,
-    }
+    })
 }
 
 export const logout = (req, res) => {
